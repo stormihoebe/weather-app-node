@@ -21,7 +21,7 @@ var displayLocation = function(locationData) {
   $('#locationName').text(locationData);
 };
 $(function() {
-$('#weatherReport').hide();
+  $('#weatherReport').hide();
   $('#form').submit(function(event) {
     event.preventDefault();
     var location = $('#location').val();
@@ -35,4 +35,6 @@ $('#weatherReport').hide();
     newReport.getName(displayLocation);
     $('#weatherReport').show();
   });
+
+
 });
