@@ -2,11 +2,11 @@ $yellow : #ffdf44;
 $nearlyBlack : #2a2b2d;
 body{
   background: repeating-linear-gradient(
-  $nearlyBlack,
-  $nearlyBlack 30px,
-  $yellow 10px,
-  $yellow 50px
-);
+    $nearlyBlack,
+    $nearlyBlack 30px,
+    $yellow 10px,
+    $yellow 50px
+  );
 
 }
 
