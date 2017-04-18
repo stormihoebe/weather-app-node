@@ -1,0 +1,26 @@
+$yellow : #ffdf44;
+$nearlyBlack : #2a2b2d;
+body{
+  background: repeating-linear-gradient(
+  $nearlyBlack,
+  $nearlyBlack 30px,
+  $yellow 10px,
+  $yellow 50px
+);
+
+}
+
+.jumbotron{
+  text-align: center;
+  color: $nearlyBlack;
+  background-color: $yellow;
+}
+.activeBtn{
+  background-color: $yellow;
+}
+.container{
+  max-width: 600px;
+  background-color: $nearlyBlack;
+  color: white;
+  min-height: 700px;
+}
