@@ -18,3 +18,5 @@ bower install bootstrap --save
 bower install moment --save
 npm install bower-files --save-dev
 npm install browser-sync --save-dev
+
+Stormi's API c365c8738e26bef125373fe9a9284454
