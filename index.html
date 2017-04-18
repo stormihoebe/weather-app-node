@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>Weather App</h1>
+    </div>
+    <form id="form">
+      <div class="form-group">
+        <label for="location">Enter a Location:</label>
+        <input type="text" name="location" id="location">
+      </div>
+      <button type="submit"class="btn btn-warning">Get Weather Report</button>
+    </form>
+    <div id="weatherReport">
+      <h2>Location: <span id="locationName"></span></h2>
+      <h4>Temperature: <span id="temperature"></span></h4>
+      <h4>Humidity: <span id="humidity"></span></h4>
+    </div>
+  </body>
+</html>
